@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<!-- saved from url=(0066)file:///C:/Users/lenovo/Downloads/Priya%20_%20Portfolio%20NEW.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Priya | Portfolio</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #2f3952;
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+
+        /* NAVBAR */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px 8%;
+            background: #000;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            color: #00eaff;
+        }
+
+        .logo {
+            color: #00eaff;
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        /* HERO SECTION */
+        .hero {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 80px 10%;
+        }
+
+        .hero-text h1 {
+            font-size: 50px;
+            margin: 0;
+        }
+
+        .hero-text span {
+            color: #00eaff;
+        }
+
+        .hero-text p {
+            color: #ccc;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            background: #00aaff;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 6px;
+        }
+
+        .hero img {
+            width: 260px;
+            height: 260px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 4px solid #00eaff;
+        }
+
+        section {
+            padding: 60px 10%;
+        }
+
+        h2 {
+            font-size: 30px;
+            color: #00eaff;
+        }
+
+        p {
+            color: #ccc;
+            font-size: 16px;
+        }
+
+        .skill-box, .project-box {
+            border: 2px solid #00eaff;
+            padding: 10px 18px;
+            border-radius: 20px;
+            display: inline-block;
+            margin: 8px;
+        }
+
+        .projects-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .project-item {
+            border: 2px solid #00eaff;
+            padding: 20px;
+            width: 300px;
+            border-radius: 10px;
+        }
+
+        /* CONTACT FORM */
+        .contact-form {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            width: 100%;
+            max-width: 450px;
+            margin: auto;
+            color: black;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+        }
+
+        .contact-form button {
+            background: #0066ff;
+            color: white;
+            padding: 10px;
+            border: none;
+            width: 100%;
+            border-radius: 6px;
+            font-size: 17px;
+        }
+
+        /* MOBILE RESPONSIVE */
+        @media (max-width: 768px) {
+            .hero {
+                flex-direction: column;
+                text-align: center;
+            }
+            .hero img {
+                margin-top: 20px;
+            }
+            nav {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav>
+        <div class="logo">Portfolio</div>
+        <div>
+            <a href="http://127.0.0.1:5500/index.html#home">Home</a>
+            <a href="http://127.0.0.1:5500/index.html#about">About</a>
+            <a href="http://127.0.0.1:5500/index.html#resume">Resume</a>
+            <a href="http://127.0.0.1:5500/index.html#skills">Skills</a>
+            <a href="http://127.0.0.1:5500/index.html#projects">Projects</a>
+            <a href="http://127.0.0.1:5500/index.html#contact">Contact</a>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+        <div class="hero-text">
+            <h1>Hello, I'm <br><span>Priya</span></h1>
+            <p>MCA Student | Web Developer | Designer</p>
+            <a class="btn" href="http://127.0.0.1:5500/Priya-CV.pdf" download="">Download CV</a>
+        </div>
+
+        <img src="./Priya _ Portfolio githhub_files/photo.jpg" alt="Priya">
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am an MCA student with strong fundamentals in programming and web development.  
+            I love creating modern, responsive websites and continuously learning new skills.
+            I have skills in python, HTML,JavaScript and SQL .I Completed BA with Mathematics and also 
+            worked as a counselor , which improved my Communicationn Skills. My Aim to become software engineer
+            and worked in a Reputed Company like (google,microsoft)
+        </p>
+    </section>
+
+    <!-- RESUME -->
+    <section id="resume">
+        <h2>Resume</h2>
+        <p>You can download my resume using the link below:</p>
+        <a class="btn" href="http://127.0.0.1:5500/Priya-CV.pdf" download="">Download Resume</a>
+
+        <h3 style="margin-top:30px;color:#229b95;">Education</h3>
+        <p><b>MCA (2025–2027)</b><br> KR Mangalam University</p>
+        <p><b>BCA (2022–2025)</b><br> DU University</p>
+    
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skill-box">HTML</div>
+        <div class="skill-box">CSS</div>
+        <div class="skill-box">JavaScript</div>
+        <div class="skill-box">Python</div>
+        <div class="skill-box">SQL</div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <div class="projects-grid">
+            <div class="project-item">
+                <h3>Portfolio Website</h3>
+                <p>A modern personal portfolio created with HTML, CSS &amp; JS.</p>
+            </div>
+
+            <div class="project-item">
+                <h3>Student Management System</h3>
+                <p>CRUD system using Python &amp; SQL for managing student records.</p>
+            </div>
+
+            <div class="project-item">
+                <h3>E-commerce UI</h3>
+                <p>Frontend UI of an online store with cart design.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <h2>Contact</h2>
+
+        <p>Email: priya7827@gmail.com </p>
+        <p>Phone: 7827380952 </p>
+        <p>GitHub: github.com/yourid</p>
+
+        <h2 style="text-align:center;margin-top:40px;">Contact Me</h2>
+
+        <div class="contact-form">
+            <input type="text" placeholder="Enter your name">
+            <input type="email" placeholder="Enter your email">
+            <textarea rows="4" placeholder="Write your message..."></textarea>
+            <button>Send Message</button>
+        </div>
+    </section>
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>
